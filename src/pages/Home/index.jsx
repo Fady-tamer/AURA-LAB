@@ -3,7 +3,7 @@ import Hero from "./Sections/Hero";
 
 const Home = () => {
   return (
-    <div>
+    <div className="max-w-360 mx-auto">
       <Hero />
       <Fragrances />
     </div>

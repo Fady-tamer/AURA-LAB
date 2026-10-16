@@ -8,12 +8,12 @@ const Navbar = () => {
   };
 
   return (
-    <header className="px-20 py-7 flex justify-between items-center border border-border-subtle">
+    <header className="max-w-360 mx-auto px-20 py-7 flex justify-between items-center border-b border-border-subtle">
       <div className="flex gap-8 text-[13px]">
         <NavLink
           to={"#Fragrances"}
           onClick={() => {
-            scrollTo(e, "Fragrances");
+            scrollTo("Fragrances");
           }}
         >
           Fragrances
@@ -22,7 +22,7 @@ const Navbar = () => {
         <NavLink to={"/about"}>About</NavLink>
       </div>
       <div>
-        <NavLink className={`text-2xl font-medium tracking-wide`}>
+        <NavLink to={"/"} className={`text-2xl font-medium tracking-wide`}>
           AURA LAB
         </NavLink>
       </div>

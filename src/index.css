@@ -16,11 +16,21 @@
   --font-body: "Inter", sans-serif;
 }
 
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: var(--color-surface-primary);
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-text-secondary);
+  border-radius: 50px;
+}
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
+  color: var(--color-text-primary);
   background-color: var(--color-surface-primary);
   font-family: var(--font-body);
 }
