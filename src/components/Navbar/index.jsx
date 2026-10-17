@@ -22,7 +22,7 @@ const Navbar = () => {
         <NavLink to={"/about"}>About</NavLink>
       </div>
       <div>
-        <NavLink className={`text-2xl font-semibold tracking-wide`}>
+        <NavLink className={`text-2xl font-bold tracking-wide`}>
           AURA LAB
         </NavLink>
       </div>
