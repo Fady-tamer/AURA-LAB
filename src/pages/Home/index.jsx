@@ -1,6 +1,7 @@
 import FragranceNotes from "./Sections/FragranceNotes";
 import Fragrances from "./Sections/Fragrances";
 import Hero from "./Sections/Hero";
+import OurPhilosophy from "./Sections/OurPhilosophy";
 
 const Home = () => {
   return (
@@ -8,6 +9,7 @@ const Home = () => {
       <Hero />
       <Fragrances />
       <FragranceNotes />
+      <OurPhilosophy />
     </div>
   );
 };
